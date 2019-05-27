@@ -23,6 +23,7 @@ new OptionsSync().define({
 				.replace('fix-squash-and-merge-title', 'sync-pr-commit-title') // #1934
 				.replace('scroll-to-top-on-collapse', '') // #2036
 				.replace('upload-button', '') // #2068
+				.replace('emojis-title', '') // #2084
 			; // eslint-disable-line semi-style
 		},
 		OptionsSync.migrations.removeUnused
